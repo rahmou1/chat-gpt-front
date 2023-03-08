@@ -14,7 +14,7 @@ const Footer = () => {
           rel="noreferrer"
           className="text-red-500"
         >
-          &nbsp; Rahmou&nbsp;
+          &nbsp;Rahmou&nbsp;
         </a>
       </span>
       All rights Reserved, {year}
