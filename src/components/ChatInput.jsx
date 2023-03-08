@@ -18,7 +18,7 @@ const ChatInput = ({ sendMessage, loading }) => {
               e.keyCode === 13 && e.shiftKey === false && handleSubmit();
             }}
             rows={1}
-            className="border-0 bg-transparent outline-none w-11/12"
+            className="border-0 bg-transparent outline-none w-11/12 resize-none	"
             value={value}
             type="text"
             onChange={(e) => setValue(e.target.value)}
