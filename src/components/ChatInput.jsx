@@ -2,7 +2,6 @@ import React, { useState } from "react";
 
 const ChatInput = ({ sendMessage, loading }) => {
   const [value, setValue] = useState("");
-
   const handleSubmit = () => {
     if (value.replaceAll(/\s/g, "") === "") return;
     sendMessage({ sender: "user", message: value });
