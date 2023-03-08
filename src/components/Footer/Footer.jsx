@@ -17,7 +17,7 @@ const Footer = () => {
           &nbsp;Rahmou&nbsp;
         </a>
       </span>
-      All rights Reserved, {year}
+      All Rights Reserved, {year}
     </div>
   );
 };
